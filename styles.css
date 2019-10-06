@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(227, 233, 233);
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 50%
+  }
+  
+  img.resize { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 650px;
+	height: 350px;
+    }
+    
+    img.centerresize { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+        height: 350px;
+        }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .columntwo {
+    flex: 50.00%;
+    padding: 4px;
+  }
+  /* Clear floats after image containers */
+  .row {
+    display: flex;
+  }
